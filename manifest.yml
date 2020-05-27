@@ -1,0 +1,4 @@
+applications:
+- name: flappy-bird
+  random-route: true
+  memory: 256M

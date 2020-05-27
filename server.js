@@ -4,4 +4,4 @@ const app = express()
 
 app.use(express.static('.'))
 
-app.listen(80, () => console.log('Executando...'))
+app.listen(8080, () => console.log('Executando...'))
