@@ -1,0 +1,28 @@
+{
+  "name": "flappy-bird",
+  "version": "1.0.0",
+  "description": "A simple version of Flappy Bird game",
+  "main": "flappy.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/palmierisousa/flappy-bird.git"
+  },
+  "keywords": [
+    "javascript",
+    "css",
+    "html"
+  ],
+  "author": "Marcelo Palmieri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/palmierisousa/flappy-bird/issues"
+  },
+  "homepage": "https://github.com/palmierisousa/flappy-bird#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
