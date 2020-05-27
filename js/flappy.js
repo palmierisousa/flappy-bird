@@ -70,7 +70,7 @@ function Barriers(height, width, gap, space, notifyScore) {
 }
 
 function Bird(height) {
-    let flying = true
+    let flying = false
 
     this.element = newElement('img', 'bird')
     this.element.src = 'imgs/bird.png'
@@ -78,7 +78,7 @@ function Bird(height) {
     this.getY = () => getValueFromPx(this.element.style.bottom)
     this.setY = y => this.element.style.bottom = `${y}px`
 
-    window.onkeydown = e => flying = true
+    window.onkeydown = e => (e.key == 'ArrowUp') ? flying = true : ''
     window.onkeyup = e => flying = false
 
     this.animate = () => {
