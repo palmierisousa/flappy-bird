@@ -9,4 +9,4 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'flappy.html'))
 })
 
-app.listen(3000, () => console.log('Executando...'))
+app.listen(8080, () => console.log('Executando...'))

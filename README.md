@@ -8,9 +8,11 @@ The game engine was implemented on [flappy.js](js/flappy.js) file.
 
 The scenario, bird and tubes were designed on [flappy.css](css/flappy.css) file.
 
-
 ## Install
 Download the project and open the [flappy.html](flappy.html) file on your prefered browser.
+You can also run the game in node environemt, just:
+1. Run npm install
+2. npm start
 
 ## Controls
 As soon as you load the [flappy.html](flappy.html) file, the game begins. To control the bird, you can use any key on the keyboard. The bird flies up more quickly than it goes down.
