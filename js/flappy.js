@@ -80,7 +80,7 @@ function Bird(height) {
 
     window.onkeydown = e => (e.key == 'ArrowUp') ? flying = true : ''
     window.onkeyup = e => flying = false
-    window.ontouchstart = window.onkeydown
+    window.ontouchstart = e => flying = true
     window.ontouchend = window.onkeyup
 
     this.animate = () => {
