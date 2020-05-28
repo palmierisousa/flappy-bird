@@ -15,7 +15,7 @@ You can also run the game in node environemt, just:
 2. npm start
 
 ## Controls
-As soon as you load the [flappy.html](flappy.html) file, the game begins. To control the bird, you can use any key on the keyboard. The bird flies up more quickly than it goes down.
+As soon as you load the [flappy.html](flappy.html) file, the game begins. To control the bird, you can use up arrow key to fly up. When no key is pressed, the bird flies down. The bird flies up faster than it goes down.
 
 ## Objective
 The objective is to pass with the bird between the big green tubes without touching them. Every time the bird passes between the tubes, one point is scored.
